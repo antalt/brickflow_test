@@ -1,0 +1,20 @@
+
+    <div class="searchbar">
+        <form>
+            Flickr search: 
+            <input type="text" placeholder="#hashtag" ng-model="searchText" />
+            <input type="submit" value="Search" ng-click="doSearch()"/>
+        </form>
+    </div>
+
+
+    <div class="gallery">
+        <div class="gallerybox" ng-repeat="photo in photos">
+            <img ng-src="{{photo.src}}" class="galleryboximg"/>
+        </div>
+    </div>
+
+
+    <div class="showmore" ng-show="showMore()">
+        <input type="submit" value="Show more..." ng-click="doSearchMore()"/>
+    </div>
