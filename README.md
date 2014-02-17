@@ -6,13 +6,12 @@ It implements a simple image gallery based on Flickr search results.
 Structure:
 ----------
 /www - files for web
-/www.phonegap - files for phonegap 
 /brickflowApp - phonegap project
+/brickflowApp/www - copy of web files for phonegap project (same for now)
 
 Known issues:
 -------------
 - functionality is very limited
-- style and layout is incorrect in iOS emulator
-- shows only a flat gray background in iOS device (iP5, iOS7.0.4)
+- style and layout is incorrect in phonegap builds
 - no tests whatsoever
 
